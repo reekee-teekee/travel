@@ -173,37 +173,37 @@ figure {
   flex-grow: 1;
 }
 
-.place {
+.places {
   margin-bottom: 92px;
 }
 
-.place__item {
+.places__item {
   margin-bottom: 80px;
 }
 
-.place__header {
+.places__header {
   align-items: flex-end;
   gap: 40px;
   margin-bottom: 48px;
 }
 
-.place__header,
-.place__body {
+.places__header,
+.places__body {
   gap: 40px;
 }
 
-.place__title {
+.places__title {
   width: 460px;
 }
 
-.place__title,
+.places__title,
 .dogs__title {
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
 }
 
-.place__url {
+.places__url {
   margin-bottom: 12px;
   font-size: 12px;
   line-height: 12px;
@@ -212,19 +212,19 @@ figure {
   color: #aaa;
 }
 
-.place__link {
+.places__link {
   font-size: 18px;
   line-height: 22px;
   text-decoration: underline;
 }
 
 
-.place__text {
+.places__text {
   font-size: 18px;
   line-height: 28px;
 }
 
-.place__text:not(:last-child) {
+.places__text:not(:last-child) {
   margin-bottom: 26px;
 }
 
@@ -282,8 +282,8 @@ figure {
 }
 
 .footer {
-  max-width: 1184px;
   justify-content: space-between;
+  max-width: 1184px;
   margin: 0 auto 24px;
 }
 
