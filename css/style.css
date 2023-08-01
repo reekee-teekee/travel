@@ -16,9 +16,9 @@
   font-style: normal;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 a {
   color: inherit;
@@ -74,9 +74,24 @@ footer {
   margin: 0 auto;
 }
 
+.gallery__link,
+.gallery__link-active,
 .lang {
   font-size: 24px;
   line-height: 28px;
+}
+
+.gallery__link {
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.gallery__link:hover {
+  border-color: #ffffff;
+}
+
+.gallery__link-active {
+  border-bottom: 1px dashed #fff;
 }
 
 .header_lang {
@@ -303,4 +318,10 @@ figure {
 .footer__copy {
   font-size: 14px;
   line-height: 16px;
+}
+
+.test {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid red;
 }
